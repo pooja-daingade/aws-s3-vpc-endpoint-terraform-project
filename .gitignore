@@ -35,7 +35,6 @@ terraform.rc
 .terraform/
 *.tfstate
 *.tfstate.*
-*.tfvars
 *.tfplan
 environments/aws-vpc-endpoints-demo/endpoints-demo/.terraform.lock.hcl
 environments/aws-vpc-endpoints-demo/network/.terraform.lock.hcl
@@ -45,10 +44,8 @@ environments/aws-vpc-endpoints-demo/network/.terraform/providers/registry.terraf
 **/.terraform/
 *.tfstate
 *.tfstate.*
-*.tfvars
 *.tfplan
 **/.terraform/
 *.tfstate
 *.tfstate.*
-*.tfvars
 *.tfplan
